@@ -3,7 +3,9 @@ var slider = function () {
   var sliderWidth = slider.offsetWidth
   var slideList = slider.querySelector('.slider-wrap')
   var count = 1
-  var items = document.querySelectorAll('li').length
+  var items = document.querySelectorAll('.slider-image').length
+
+  console.log(items)
 
   window.addEventListener('resize', function () {
     sliderWidth = slider.offsetWidth
@@ -33,7 +35,7 @@ var slider = function () {
 
   setInterval(function () {
     nextSlide()
-  }, 5000)
+  }, 7000)
 }
 
 window.onload = function () {
