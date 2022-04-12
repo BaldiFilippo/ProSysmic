@@ -215,12 +215,13 @@ h2 {
 }
 
 .image-gallery {
-  margin-top: 20px;
-  width: 100%;
+  margin: 20px auto 0 auto;
+  width: 1508px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 300px);
+  grid-template-rows: repeat(2, 300px);
   grid-auto-flow: dense;
+  grid-gap: 2px;
 }
 
 .image-gallery .image-box {
@@ -272,6 +273,7 @@ h2 {
   }
 
   .menu {
+    z-index: 2;
     justify-content: start;
     flex-direction: column;
     align-items: center;
@@ -303,6 +305,7 @@ h2 {
   }
 
   .image-gallery {
+    width: 100%;
     padding: 0 10px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
