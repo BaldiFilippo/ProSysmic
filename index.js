@@ -5,8 +5,6 @@ var slider = function () {
   var count = 1
   var items = document.querySelectorAll('.slider-image').length
 
-  console.log(items)
-
   window.addEventListener('resize', function () {
     sliderWidth = slider.offsetWidth
   })

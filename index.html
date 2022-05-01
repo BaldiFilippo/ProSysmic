@@ -44,11 +44,13 @@
     </section>
     <section class="content">
       <div class="container">
-        <h1>Prosysmic</h1>
-        <h2>Società A Responsabilità Limitata Semplificata</h2>
+        <h1 class="main-title">Prosysmic</h1>
+        <h2 class="second-title">
+          Società A Responsabilità Limitata Semplificata
+        </h2>
 
         <div class="line"></div>
-        <p>
+        <p class="introduction-p">
           L'azienda Pro Sysmic - Societa' A Responsabilita' Limitata
           Semplificata si trova in VIA SIMONI, 23, 25030, Adro, Brescia. La sua
           attività è Codice Ateco 2007 (74.90.93) "Altre attivita' di consulenza
@@ -172,16 +174,11 @@
       </div>
     </section>
 
-    <!-- <section>
-      <div class="container">
-        <div class="news">
-          <h1>news</h1>
-        </div>
-        <div class="line"></div>
-      </div>
-    </section> -->
+    <section>
+      <div class="container"></div>
+    </section>
 
-    <footer>
+    <footer class="footer">
       <div class="container">
         <div class="dati-aziendali">
           <h3>Dati aziendali</h3>
@@ -193,5 +190,24 @@
     </footer>
 
     <script src="index.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: '3px',
+        delay: 200,
+        duration: 1000,
+      })
+
+      ScrollReveal().reveal(
+        '.image-box, .bordered-p, .introduction-p, .main-title, .second-title, .line, .footer',
+        {
+          delay: 100,
+          duration: 1000,
+        }
+      )
+    </script>
   </body>
 </html>
