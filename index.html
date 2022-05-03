@@ -29,13 +29,13 @@
             <li><a href="#">PAGINA 2</a></li>
             <li><a href="#">PAGINA 3</a></li>
             <li><a href="#">PAGINA 4</a></li>
-            <li><a href="#">CONTATTI</a></li>
+            <li><a href="contatti.html">CONTATTI</a></li>
           </ul>
         </div>
       </div>
     </header>
 
-    <section class="slider">
+    <section class="slider animation">
       <ul class="slider-wrap">
         <li class="slider-image"><img src="/img/3.jpeg" alt="" /></li>
         <li class="slider-image"><img src="/img/1.jpeg" alt="" /></li>
@@ -45,20 +45,20 @@
     </section>
     <section class="content">
       <div class="container">
-        <h1 class="main-title">Prosysmic</h1>
-        <h2 class="second-title">
+        <h1 class="main-title animation">Prosysmic</h1>
+        <h2 class="second-title animation">
           Società A Responsabilità Limitata Semplificata
         </h2>
 
-        <div class="line"></div>
-        <p class="introduction-p">
+        <div class="line animation"></div>
+        <p class="introduction-p animation">
           L'azienda Pro Sysmic - Societa' A Responsabilita' Limitata
           Semplificata si trova in VIA SIMONI, 23, 25030, Adro, Brescia. La sua
           attività è Codice Ateco 2007 (74.90.93) "Altre attivita' di consulenza
           tecnica nca". Il report aggiornato è stato emesso il 17/01/2017.
         </p>
 
-        <p class="bordered-p">
+        <p class="bordered-p animation">
           L'azienda Pro Sysmic - Societa' A Responsabilita' Limitata
           Semplificata si trova in VIA SIMONI, 23, 25030, Adro, Brescia. La sua
           attività è Codice Ateco 2007 (74.90.93) "Altre attivita' di consulenza
@@ -72,7 +72,7 @@
       </div>
 
       <div class="image-gallery">
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-1.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -82,7 +82,7 @@
             </div>
           </div>
         </div>
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-3.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -92,7 +92,7 @@
             </div>
           </div>
         </div>
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-2.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -102,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-4.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -112,7 +112,7 @@
             </div>
           </div>
         </div>
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-3.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -122,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-3.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -132,7 +132,7 @@
             </div>
           </div>
         </div>
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-4.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -142,7 +142,7 @@
             </div>
           </div>
         </div>
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-2.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -152,7 +152,7 @@
             </div>
           </div>
         </div>
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-3.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -162,7 +162,7 @@
             </div>
           </div>
         </div>
-        <div class="image-box">
+        <div class="image-box animation">
           <img src="/img/gallery-2.jpeg" alt="" />
           <div class="overlay">
             <div class="details">
@@ -179,7 +179,7 @@
       <div class="container"></div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer animation">
       <div class="container">
         <div class="dati-aziendali">
           <h3>Dati aziendali</h3>
@@ -202,13 +202,10 @@
         duration: 1000,
       })
 
-      ScrollReveal().reveal(
-        '.image-box, .bordered-p, .introduction-p, .main-title, .second-title, .line, .footer',
-        {
-          delay: 100,
-          duration: 1000,
-        }
-      )
+      ScrollReveal().reveal('.animation', {
+        delay: 100,
+        duration: 1000,
+      })
     </script>
   </body>
 </html>

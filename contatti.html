@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProSysmic</title>
+    <link rel="icon" href="img/gallery-2.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">Logo</a>
+        </div>
+        <div class="navigation">
+          <input type="checkbox" class="toggle-menu" />
+          <div class="hamburger"></div>
+          <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">PAGINA 2</a></li>
+            <li><a href="#">PAGINA 3</a></li>
+            <li><a href="#">PAGINA 4</a></li>
+            <li><a href="#">CONTATTI</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container about-us">
+        <h1 class="about-title animation">CONTATTI</h1>
+        <div class="about-us-box">
+          <div class="about-content animation">
+            <h2>Prosysmic</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+              reiciendis et cum impedit hic fuga velit, adipisci ducimus
+              molestias, iure minima eum, labore dicta quos. Rerum, soluta
+              cupiditate! Cum, ratione.
+            </p>
+          </div>
+          <img src="/img/gallery-3.jpeg" class="about-img animation" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer animation">
+      <div class="container">
+        <div class="dati-aziendali">
+          <h3>Dati aziendali</h3>
+          <p>123456 Prova, Italia</p>
+          <p>Tel. +39 0221 363426342</p>
+          <p>Email: Prosysmic@provaprova.it</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: '3px',
+        delay: 200,
+        duration: 1000,
+      })
+
+      ScrollReveal().reveal('.animation', {
+        delay: 100,
+        duration: 1000,
+      })
+    </script>
+  </body>
+</html>
