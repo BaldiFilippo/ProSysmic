@@ -18,6 +18,10 @@ h2 {
   font-size: 18px;
 }
 
+body {
+  min-height: 100vh;
+}
+
 .header {
   position: relative;
   width: 100%;
@@ -216,7 +220,7 @@ h2 {
 }
 
 .image-gallery {
-  margin: 20px auto 0 auto;
+  margin: 30px auto 0 auto;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -263,11 +267,68 @@ h2 {
 .image-gallery .image-box:hover img {
   transform: scale(1.1);
 }
+
+.news {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.image5 {
+  width: 400px;
+}
+
+.contact-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: #1c55aa 1px solid;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in;
+}
+
+.contact-btn:hover {
+  background-color: #1c55aa;
+  color: #ffffff;
+}
+
+.contact-links {
+  margin-top: 10px;
+}
+
+.phone,
+.email,
+.facebook,
+.maps {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.phone p,
+.maps p,
+.email p,
+.facebook p {
+  margin-left: 10px;
+}
+
+.final-p {
+  margin-bottom: 20px;
+}
+
 footer {
+  position: relative;
   margin-top: 50px;
   background-color: #1c55aa;
   padding: 50px 0 70px 0;
   font-size: 1.2rem;
+}
+
+.contact-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .dati-aziendali {
@@ -282,7 +343,7 @@ footer {
   letter-spacing: 1.5px;
 }
 .dati-aziendali h3,
-.dati-aziendali p {
+.dati-aziendali h4 {
   color: #ffffff;
 }
 
@@ -328,6 +389,9 @@ footer {
     display: block;
   }
 
+  p {
+    text-align: center;
+  }
   .header {
     padding: 10px 20px;
   }
