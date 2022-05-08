@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProSysmic</title>
+    <link rel="stylesheet" href="../style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="../index.html">Prosysmic</a>
+        </div>
+        <div class="navigation">
+          <input type="checkbox" class="toggle-menu" />
+          <div class="hamburger"></div>
+          <ul class="menu">
+            <li>
+              <a href="/Pages/StruttureAPannelli.html"
+                >STRUTTURE <br />
+                A PANNELLI</a
+              >
+            </li>
+            <li>
+              <a href="/Pages/StrutturePrefabbricate.html"
+                >STRUTTURE <br />
+                PREFABBRICATE</a
+              >
+            </li>
+            <li>
+              <a href="/Pages/OpereCA.html"
+                ><br />
+                OPERE C.A</a
+              >
+            </li>
+            <li>
+              <a href="/Pages/RinforziSismici.html"
+                >RINFORZI <br />
+                SISMICI</a
+              >
+            </li>
+            <li>
+              <a href="/Pages/contatti.html"
+                ><br />
+                CONTATTI</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h1 class="main-title">OPERE C.A</h1>
+      </div>
+    </section>
+
+    <footer class="footer animation">
+      <div class="container">
+        <div class="dati-aziendali">
+          <h3>Dati aziendali</h3>
+          <h4>123456 Prova, Italia</h4>
+          <h4>Tel. +39 0221 363426342</h4>
+          <h4>Email: Prosysmic@provaprova.it</h4>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: '3px',
+        delay: 200,
+        duration: 1000,
+      })
+
+      ScrollReveal().reveal('.animation', {
+        delay: 100,
+        duration: 1000,
+      })
+    </script>
+  </body>
+</html>
