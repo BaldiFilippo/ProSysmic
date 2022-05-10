@@ -36,7 +36,8 @@ var slider = function () {
   }, 7000)
 }
 
-window.onload = function () {
+// if we are in the main page we run the slider
+if (window.location.pathname === 'https://prosysmic.pages.dev/') {
   slider()
 }
 
