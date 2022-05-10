@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  color: black;
 }
 
 h4 {
@@ -16,6 +15,7 @@ h2 {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 h1 {
@@ -463,10 +463,12 @@ footer {
   right: 1.5em;
   font-size: 1.5em;
   cursor: pointer;
-  color: #1c55aa;
+  z-index: 28;
+  color: #fff;
 }
 
 .close span {
+  color: #fff;
   cursor: pointer;
   z-index: 29;
 }
