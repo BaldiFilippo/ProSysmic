@@ -37,7 +37,7 @@ var slider = function () {
 }
 
 // if we are in the main page we run the slider
-if (window.location.pathname === '/index.html') {
+if (document.querySelector('.slider')) {
   slider()
 }
 
