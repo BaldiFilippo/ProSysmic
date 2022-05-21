@@ -109,6 +109,17 @@ body {
   border-radius: 10px;
 }
 
+.big-img {
+  width: 1200px;
+}
+
+.p-test {
+  margin-bottom: 50px;
+}
+
+.big-img img {
+  width: 100%;
+}
 .hamburger::before,
 .hamburger::after {
   content: '';
@@ -181,6 +192,11 @@ body {
   padding: 0;
   transition: all 0.7s ease-in;
   left: 0;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .slider ul li {
@@ -406,6 +422,10 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
   margin: 0 auto;
+}
+
+.red a {
+  color: #ff0000;
 }
 
 .img {
