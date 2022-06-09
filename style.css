@@ -50,6 +50,15 @@ body {
   margin: 0 auto;
 }
 
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .logo {
   display: block;
   font-size: 35px;
@@ -87,7 +96,7 @@ body {
 .menu li a {
   text-decoration: none;
   display: block;
-  padding: 40px 25px;
+  padding: 40px 30px;
   font-size: 18px;
   line-height: 1;
   transition: 0.3s;
@@ -95,7 +104,7 @@ body {
 
 .menu li a:hover {
   box-shadow: 0 -4px 0px #1c55aa inset;
-  padding: 35px 25px 45px 25px;
+  padding: 35px 30px 45px 30px;
 }
 
 .hamburger {
@@ -113,8 +122,13 @@ body {
   width: 1200px;
 }
 
-.p-test {
-  margin-bottom: 50px;
+.box {
+  margin-top: 100px;
+}
+
+.descrizione-servizi {
+  text-align: center;
+  margin: 25px 0;
 }
 
 .big-img img {
@@ -326,8 +340,9 @@ body {
   color: #ffffff;
 }
 
-.contact-links {
-  margin-top: 10px;
+iframe {
+  max-width: 1200px;
+  width: 100%;
 }
 
 .phone,
@@ -358,6 +373,12 @@ footer {
   padding: 50px 0 70px 0;
   font-size: 1.2rem;
 }
+.chi-siamo p {
+  margin-top: 10px;
+}
+.chi-siamo-footer {
+  margin-top: 250px;
+}
 
 .center {
   margin: 20px auto;
@@ -377,6 +398,11 @@ footer {
 .dati-aziendali h3,
 .dati-aziendali h4 {
   color: #ffffff;
+}
+
+.dati-aziendali h4 {
+  margin-top: 10px;
+  font-weight: normal;
 }
 
 .about-us {
@@ -422,10 +448,6 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
   margin: 0 auto;
-}
-
-.red a {
-  color: #ff0000;
 }
 
 .img {
