@@ -33,7 +33,7 @@ var slider = function () {
 
   setInterval(function () {
     nextSlide()
-  }, 7000)
+  }, 10000)
 }
 
 // if we are in the main page we run the slider
