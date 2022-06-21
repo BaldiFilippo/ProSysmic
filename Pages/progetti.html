@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ProSysmic</title>
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../style.css" />
 
     <link
@@ -22,6 +23,13 @@
     />
   </head>
   <body>
+    <div class="modal">
+      <i class="fa-solid fa-xmark modal-close-btn"></i>
+      <h2 class="modal-title"></h2>
+      <p class="modal-text"></p>
+      <div class="modal-content"></div>
+    </div>
+
     <header class="header">
       <div class="container">
         <div class="logo">
@@ -48,10 +56,14 @@
           <div class="card-content">
             <h2 class="project-title">Raffineria ENI</h2>
             <div class="project-description">
-              <p>Gela (CL): progettazione opere strutturali prefabbricate</p>
-              <a href="/Pages/Projects/eni.html"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Gela (CL): progettazione opere strutturali prefabbricate
+              </p>
+
+              <i
+                data-id="project-1"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -60,13 +72,14 @@
           <div class="card-content-plus">
             <h2 class="project-title">DS SMITH</h2>
             <div class="project-description">
-              <p>
+              <p class="project-text">
                 Castelfranco Emilia (MO): progettazione opere strutturali
                 prefabbricate
               </p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <i
+                data-id="project-2"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -76,12 +89,13 @@
           <div class="card-content">
             <h2 class="project-title">Donati Lumezzane</h2>
             <div class="project-description">
-              <p>
+              <p class="project-text">
                 Lumezzane (BS): progettazione esecutiva strutture prefabbricate
               </p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <i
+                data-id="project-3"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -90,10 +104,13 @@
           <div class="card-content">
             <h2 class="project-title">FOMA</h2>
             <div class="project-description">
-              <p>Pralboino (BS): studio tunnel prefabbricato</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Pralboino (BS): studio tunnel prefabbricato
+              </p>
+              <i
+                data-id="project-4"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -102,12 +119,13 @@
           <div class="card-content-plus">
             <h2 class="project-title">Eusider</h2>
             <div class="project-description">
-              <p>
+              <p class="project-text">
                 Cesana Brianza (LC): progettazione c.a., prefabbricato e D.L.
               </p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <i
+                data-id="project-5"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -116,10 +134,13 @@
           <div class="card-content">
             <h2 class="project-title">A2A</h2>
             <div class="project-description">
-              <p>Cavaglià (BI): progettazione strutture prefabbricate.</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Cavaglià (BI): progettazione strutture prefabbricate.
+              </p>
+              <i
+                data-id="project-6"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -128,10 +149,13 @@
           <div class="card-content">
             <h2 class="project-title">ARUBA</h2>
             <div class="project-description">
-              <p>Tivoli (RM): progettazione strutture c.a.</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Tivoli (RM): progettazione strutture c.a.
+              </p>
+              <i
+                data-id="project-7"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -140,10 +164,13 @@
           <div class="card-content-plus">
             <h2 class="project-title">WARCOM</h2>
             <div class="project-description">
-              <p>Adro (BS): progettazione basamento per nuovo macchinario</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Adro (BS): progettazione basamento per nuovo macchinario
+              </p>
+              <i
+                data-id="project-8"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -152,10 +179,13 @@
           <div class="card-content">
             <h2 class="project-title">Fidora</h2>
             <div class="project-description">
-              <p>San Pietro in Cariano (VR): progettazione strutture c.a.</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                San Pietro in Cariano (VR): progettazione strutture c.a.
+              </p>
+              <i
+                data-id="project-9"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -164,13 +194,14 @@
           <div class="card-content-plus">
             <h2 class="project-title">FASB</h2>
             <div class="project-description">
-              <p>
+              <p class="project-text">
                 Cremella (LC): progettazione opere c.a. e fondazioni profonde su
                 pali
               </p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <i
+                data-id="project-10"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -179,10 +210,13 @@
           <div class="card-content-plus">
             <h2 class="project-title">A2A</h2>
             <div class="project-description">
-              <p>Nuvolera (BS): progettazione opere c.a.</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Nuvolera (BS): progettazione opere c.a.
+              </p>
+              <i
+                data-id="project-11"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
               <p><br /></p>
             </div>
           </div>
@@ -192,10 +226,13 @@
           <div class="card-content">
             <h2 class="project-title">LOGIMAN</h2>
             <div class="project-description">
-              <p>Spino d’Adda (CR): progettazione strutture c.a. e D.L.</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Spino d’Adda (CR): progettazione strutture c.a. e D.L.
+              </p>
+              <i
+                data-id="project-12"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -204,12 +241,13 @@
           <div class="card-content-plus">
             <h2 class="project-title">Vezzola</h2>
             <div class="project-description">
-              <p>
+              <p class="project-text">
                 Moniga del Garda (BS): progettazione opere c.a.,D.L. e collaudo
               </p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <i
+                data-id="project-13"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -218,10 +256,13 @@
           <div class="card-content">
             <h2 class="project-title">AGRISOLF</h2>
             <div class="project-description">
-              <p>Solferino (MN): progettazione opere c.a.</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Solferino (MN): progettazione opere c.a.
+              </p>
+              <i
+                data-id="project-14"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -230,14 +271,15 @@
           <img class="project-card-img" src="/img/2.jpg" alt="" />
           <div class="card-content">
             <h2 class="project-title">Benaco</h2>
-            <p>
+            <p class="project-text">
               Paratico (BS): progettazione opere c.a. e fondazioni profonde su
               pali
             </p>
             <div class="project-description">
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <i
+                data-id="project-15"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -245,11 +287,14 @@
           <img class="project-card-img" src="/img/bs.png" alt="" />
           <div class="card-content">
             <h2 class="project-title">Brescia calcio</h2>
-            <p>Torbole Casaglia (BS): progettazione opere c.a. e D.L.</p>
+            <p class="project-text">
+              Torbole Casaglia (BS): progettazione opere c.a. e D.L.
+            </p>
             <div class="project-description">
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <i
+                data-id="project-16"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -259,10 +304,13 @@
           <div class="card-content">
             <h2 class="project-title">Riboli</h2>
             <div class="project-description">
-              <p>Madignano (CR): progettazione c.a. e D.L.</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Madignano (CR): progettazione c.a. e D.L.
+              </p>
+              <i
+                data-id="project-17"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -271,12 +319,13 @@
           <div class="card-content-plus">
             <h2 class="project-title">SERIOLI</h2>
             <div class="project-description">
-              <p>
+              <p class="project-text">
                 Sale Marasino (BS): calcoli strutturali e adeguamento sismico
               </p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <i
+                data-id="project-18"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -285,10 +334,13 @@
           <div class="card-content">
             <h2 class="project-title">volpi luca</h2>
             <div class="project-description">
-              <p>Capriolo (BS): calcoli strutturali e adeguamento sismico</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">
+                Capriolo (BS): calcoli strutturali e adeguamento sismico
+              </p>
+              <i
+                data-id="project-19"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -297,12 +349,13 @@
           <div class="card-content">
             <h2 class="project-title">zatti FABIOLA</h2>
             <div class="project-description">
-              <p>
-                one (BS): pratica edilizia, efficientamento energetico e D.L.
+              <p class="project-text">
+                Zone (BS): pratica edilizia, efficientamento energetico e D.L.
               </p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <i
+                data-id="project-20"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
             </div>
           </div>
         </div>
@@ -311,10 +364,12 @@
           <div class="card-content">
             <h2 class="project-title">belleri oscar</h2>
             <div class="project-description">
-              <p>Zone (BS): pratica edilizia e D.L.</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">Zone (BS): pratica edilizia e D.L.</p>
+
+              <i
+                data-id="project-21"
+                class="fa-solid fa-circle-plus project-button"
+              ></i>
               <p><br /></p>
             </div>
           </div>
@@ -324,10 +379,14 @@
           <div class="card-content">
             <h2 class="project-title">special steel</h2>
             <div class="project-description">
-              <p>Nave (BS): adeguamento sismico</p>
-              <a href="#"
-                ><i class="fa-solid fa-circle-plus project-button"></i
-              ></a>
+              <p class="project-text">Nave (BS): adeguamento sismico</p>
+              <div class="modal-btn">
+                <i
+                  data-id="project-22"
+                  class="fa-solid fa-circle-plus project-button"
+                ></i>
+              </div>
+
               <p><br /></p>
             </div>
           </div>
@@ -356,7 +415,7 @@
         </p>
       </div>
     </footer>
-
+    <script src="/utils/modal.js"></script>
     <script src="../index.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
