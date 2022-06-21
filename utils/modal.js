@@ -9,20 +9,64 @@ const modalTitle = document.querySelector('.modal-title')
 const modalDescription = document.querySelector('.modal-text')
 const modalContent = document.querySelector('.modal-content')
 
+//array of images
+
 appearModalBtn.forEach((btn) => {
   btn.addEventListener('click', (e) => {
     //appear a modal
     projectModal.classList.add('appear')
+    // cant scroll the page
+    document.body.style.overflow = 'hidden'
+    //body darken
+    document.querySelector('.darkElement').style.opacity = '1'
 
     // change the mofal content according to the button clicked
     switch (e.target.dataset.id) {
       case 'project-1':
         modalTitle.innerHTML = projectTitle[0].innerHTML
         modalDescription.innerHTML = projectDescription[0].innerHTML
+        // crate a grid of images
+        const imagesProject1 = [
+          // path
+          '/img/Pannelli6.png',
+          '/img/eni2.png',
+          '/img/eni3.png',
+          '/img/eni4.png',
+          '/img/eni5.png',
+          '/img/eni6.png',
+        ]
+
+        var grid = document.createElement('div')
+        grid.classList.add('project-1-grid')
+        modalContent.appendChild(grid)
+        imagesProject1.forEach((image) => {
+          const imgElement = document.createElement('img')
+          imgElement.src = image
+          grid.appendChild(imgElement)
+        })
+
         break
+
       case 'project-2':
         modalTitle.innerHTML = projectTitle[1].innerHTML
         modalDescription.innerHTML = projectDescription[1].innerHTML
+        // crate a grid of images
+        const imagesProject2 = [
+          // path
+          '/img/smith1.png',
+          '/img/smith2.png',
+          '/img/smith3.png',
+          '/img/smith4.png',
+        ]
+
+        var grid = document.createElement('div')
+        grid.classList.add('project-2-grid')
+        modalContent.appendChild(grid)
+        imagesProject2.forEach((image) => {
+          const imgElement = document.createElement('img')
+          imgElement.src = image
+          grid.appendChild(imgElement)
+        })
         break
       case 'project-3':
         modalTitle.innerHTML = projectTitle[2].innerHTML
@@ -111,6 +155,12 @@ appearModalBtn.forEach((btn) => {
 closeModalBtn.forEach((btn) => {
   btn.addEventListener('click', (e) => {
     //close a modal
-    modal.classList.remove('appear')
+    projectModal.classList.remove('appear')
+    // can scroll the page
+    document.body.style.overflow = 'auto'
+    //body darken
+    document.querySelector('.darkElement').style.opacity = '0'
+    //remove the grid of images
+    modalContent.innerHTML = ''
   })
 })
