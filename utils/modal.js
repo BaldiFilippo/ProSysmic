@@ -71,6 +71,26 @@ appearModalBtn.forEach((btn) => {
       case 'project-3':
         modalTitle.innerHTML = projectTitle[2].innerHTML
         modalDescription.innerHTML = projectDescription[2].innerHTML
+        // crate a grid of images
+        const imagesProject3 = [
+          // path
+          '/img/donati1.png',
+          '/img/donati2.png',
+          '/img/donati3.png',
+          '/img/doanti4.png',
+          '/img/donati5.png',
+          '/img/donati6.png',
+        ]
+
+        var grid = document.createElement('div')
+        grid.classList.add('project-1-grid')
+        modalContent.appendChild(grid)
+        imagesProject3.forEach((image) => {
+          const imgElement = document.createElement('img')
+          imgElement.src = image
+          grid.appendChild(imgElement)
+        })
+
         break
       case 'project-4':
         modalTitle.innerHTML = projectTitle[3].innerHTML
