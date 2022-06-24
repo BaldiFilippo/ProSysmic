@@ -95,10 +95,28 @@ appearModalBtn.forEach((btn) => {
       case 'project-4':
         modalTitle.innerHTML = projectTitle[3].innerHTML
         modalDescription.innerHTML = projectDescription[3].innerHTML
+
         break
       case 'project-5':
         modalTitle.innerHTML = projectTitle[4].innerHTML
         modalDescription.innerHTML = projectDescription[4].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/eusider1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider5.png" alt="" /></li>
+            </ul>
+          </section>
+        `
         break
       case 'project-6':
         modalTitle.innerHTML = projectTitle[5].innerHTML
@@ -176,11 +194,65 @@ closeModalBtn.forEach((btn) => {
   btn.addEventListener('click', (e) => {
     //close a modal
     projectModal.classList.remove('appear')
+
     // can scroll the page
     document.body.style.overflow = 'auto'
     //body darken
     document.querySelector('.darkElement').style.opacity = '0'
     //remove the grid of images
     modalContent.innerHTML = ''
+  })
+})
+
+var projectSlider = function () {
+  var slider = document.querySelector('.project-slider')
+  var sliderWidth = slider.offsetWidth
+  var slideList = slider.querySelector('.project-slider-ul')
+  var count = 1
+  var items = document.querySelectorAll('.project-slider-image').length
+  var buttonLeft = slider.querySelector('.project-slider-button-left')
+  var buttonRight = slider.querySelector('.project-slider-button-right')
+
+  window.addEventListener('resize', function () {
+    sliderWidth = slider.offsetWidth
+  })
+
+  // on click of the left button call the function prevSlide
+  buttonLeft.addEventListener('click', function () {
+    prevSlide()
+  })
+  // on click of the right button call the function nextSlide
+  buttonRight.addEventListener('click', function () {
+    nextSlide()
+  })
+
+  var nextSlide = function () {
+    if (count < items) {
+      slideList.style.left = '-' + sliderWidth * count + 'px'
+      count++
+    } else if (count === items) {
+      slideList.style.left = '0px'
+      count = 1
+    }
+  }
+
+  var prevSlide = function () {
+    if (count > 1) {
+      slideList.style.left = '-' + sliderWidth * (count - 2) + 'px'
+      count--
+    } else if (count === 1) {
+      slideList.style.left = '-' + sliderWidth * (items - 1) + 'px'
+      count = items
+    }
+  }
+
+  setInterval(function () {
+    nextSlide()
+  }, 8000)
+}
+
+document.querySelectorAll('.slider-btn').forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    projectSlider()
   })
 })

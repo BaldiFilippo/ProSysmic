@@ -1,5 +1,6 @@
 var slider = function () {
   var slider = document.querySelector('.slider')
+  console.log('ciaoxs')
   var sliderWidth = slider.offsetWidth
   var slideList = slider.querySelector('.slider-wrap')
   var count = 1
