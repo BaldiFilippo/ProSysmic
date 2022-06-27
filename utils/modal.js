@@ -25,76 +25,94 @@ appearModalBtn.forEach((btn) => {
       case 'project-1':
         modalTitle.innerHTML = projectTitle[0].innerHTML
         modalDescription.innerHTML = projectDescription[0].innerHTML
-        // crate a grid of images
-        const imagesProject1 = [
-          // path
-          '/img/Pannelli6.png',
-          '/img/eni2.png',
-          '/img/eni3.png',
-          '/img/eni4.png',
-          '/img/eni5.png',
-          '/img/eni6.png',
-        ]
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
 
-        var grid = document.createElement('div')
-        grid.classList.add('project-1-grid')
-        modalContent.appendChild(grid)
-        imagesProject1.forEach((image) => {
-          const imgElement = document.createElement('img')
-          imgElement.src = image
-          grid.appendChild(imgElement)
-        })
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/eni3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eni4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eni5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eni6.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eni2.png" alt="" /></li>
+
+
+            </ul>
+          </section>
+        `
 
         break
 
       case 'project-2':
         modalTitle.innerHTML = projectTitle[1].innerHTML
         modalDescription.innerHTML = projectDescription[1].innerHTML
-        // crate a grid of images
-        const imagesProject2 = [
-          // path
-          '/img/smith1.png',
-          '/img/smith2.png',
-          '/img/smith3.png',
-          '/img/smith4.png',
-        ]
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
 
-        var grid = document.createElement('div')
-        grid.classList.add('project-2-grid')
-        modalContent.appendChild(grid)
-        imagesProject2.forEach((image) => {
-          const imgElement = document.createElement('img')
-          imgElement.src = image
-          grid.appendChild(imgElement)
-        })
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/smith1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/smith2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/smith3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/smith4.png" alt="" /></li>
+            </ul>
+          </section>
+        `
         break
       case 'project-3':
         modalTitle.innerHTML = projectTitle[2].innerHTML
         modalDescription.innerHTML = projectDescription[2].innerHTML
-        // crate a grid of images
-        const imagesProject3 = [
-          // path
-          '/img/donati1.png',
-          '/img/donati2.png',
-          '/img/donati3.png',
-          '/img/doanti4.png',
-          '/img/donati5.png',
-          '/img/donati6.png',
-        ]
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
 
-        var grid = document.createElement('div')
-        grid.classList.add('project-1-grid')
-        modalContent.appendChild(grid)
-        imagesProject3.forEach((image) => {
-          const imgElement = document.createElement('img')
-          imgElement.src = image
-          grid.appendChild(imgElement)
-        })
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/donati1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/donati2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/donati3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/doanti4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/donati5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/donati6.png" alt="" /></li>
+            </ul>
+          </section>
+        `
 
         break
       case 'project-4':
         modalTitle.innerHTML = projectTitle[3].innerHTML
         modalDescription.innerHTML = projectDescription[3].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/foma1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma4.png" alt="" /></li>
+            </ul>
+          </section>
+        `
 
         break
       case 'project-5':
@@ -121,18 +139,96 @@ appearModalBtn.forEach((btn) => {
       case 'project-6':
         modalTitle.innerHTML = projectTitle[5].innerHTML
         modalDescription.innerHTML = projectDescription[5].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/a2a.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/s2a1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/a2a3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/a2a4.png" alt="" /></li>
+            </ul>
+          </section>
+        `
         break
       case 'project-7':
         modalTitle.innerHTML = projectTitle[6].innerHTML
         modalDescription.innerHTML = projectDescription[6].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/aruba1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba6.png" alt="" /></li>
+
+           
+            </ul>
+          </section>
+        `
         break
       case 'project-8':
         modalTitle.innerHTML = projectTitle[7].innerHTML
         modalDescription.innerHTML = projectDescription[7].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/warcom.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom5.png" alt="" /></li>
+
+            </ul>
+          </section>
+        `
         break
       case 'project-9':
         modalTitle.innerHTML = projectTitle[8].innerHTML
         modalDescription.innerHTML = projectDescription[8].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora3.png" alt="" /></li>
+
+
+
+            </ul>
+          </section>
+        `
         break
       case 'project-10':
         modalTitle.innerHTML = projectTitle[9].innerHTML
