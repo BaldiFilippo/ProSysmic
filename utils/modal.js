@@ -248,7 +248,7 @@ var projectSlider = function () {
 
   setInterval(function () {
     nextSlide()
-  }, 8000)
+  }, 10000)
 }
 
 document.querySelectorAll('.slider-btn').forEach((btn) => {
