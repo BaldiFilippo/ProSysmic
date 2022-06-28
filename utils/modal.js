@@ -65,6 +65,9 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/smith2.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/smith3.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/smith4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/smith5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/smith6.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/smith7.png" alt="" /></li>
             </ul>
           </section>
         `
@@ -87,7 +90,8 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/donati3.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/doanti4.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/donati5.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/donati6.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/donati6.png" alt="" /></li> 
+
             </ul>
           </section>
         `
@@ -132,6 +136,8 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/eusider2.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/eusider4.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/eusider5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider6.png" alt="" /></li>
             </ul>
           </section>
         `
@@ -176,6 +182,7 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/aruba4.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/aruba5.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/aruba6.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba7.png" alt="" /></li>
 
            
             </ul>
@@ -199,6 +206,7 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/warcom1.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/warcom2.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/warcom3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom4.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/warcom5.png" alt="" /></li>
 
             </ul>
@@ -233,42 +241,243 @@ appearModalBtn.forEach((btn) => {
       case 'project-10':
         modalTitle.innerHTML = projectTitle[9].innerHTML
         modalDescription.innerHTML = projectDescription[9].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/fasb.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb6.png" alt="" /></li>
+            </ul>
+          </section>
+        `
         break
       case 'project-11':
         modalTitle.innerHTML = projectTitle[10].innerHTML
         modalDescription.innerHTML = projectDescription[10].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/a2a2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/nuvolera1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/nuvolera2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/nuvolera3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/nuvolera4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/a2a5.png" alt="" /></li>
+
+
+              
+            </ul>
+          </section>
+        `
+
         break
       case 'project-12':
         modalTitle.innerHTML = projectTitle[11].innerHTML
         modalDescription.innerHTML = projectDescription[11].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman6.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman7.png" alt="" /></li>
+
+
+              
+            </ul>
+            `
+
         break
       case 'project-13':
         modalTitle.innerHTML = projectTitle[12].innerHTML
         modalDescription.innerHTML = projectDescription[12].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/vezzola.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/vezzola2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/vezzola3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/vezzola4.png" alt="" /></li>
+              
+            </ul>
+          </section>
+        `
+
         break
       case 'project-14':
         modalTitle.innerHTML = projectTitle[13].innerHTML
         modalDescription.innerHTML = projectDescription[13].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/agrisolf1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/agrisolf2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/agrisolf3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/agrisolf4.png" alt="" /></li>
+              
+            </ul>
+          </section>
+        `
         break
       case 'project-15':
         modalTitle.innerHTML = projectTitle[14].innerHTML
         modalDescription.innerHTML = projectDescription[14].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/benaco1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/benaco2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/benaco3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/benaco4.png" alt="" /></li>
+
+              
+            </ul>
+          </section>
+        `
         break
       case 'project-16':
         modalTitle.innerHTML = projectTitle[15].innerHTML
         modalDescription.innerHTML = projectDescription[15].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/bs1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bs2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bs3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bs4.png" alt="" /></li>
+          
+              
+              
+            </ul>
+          </section>
+        `
         break
       case 'project-17':
         modalTitle.innerHTML = projectTitle[16].innerHTML
         modalDescription.innerHTML = projectDescription[16].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/riboli1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/riboli2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/riboli3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/riboli4.png" alt="" /></li>
+            </ul>
+          </section>
+        `
         break
       case 'project-18':
         modalTitle.innerHTML = projectTitle[17].innerHTML
         modalDescription.innerHTML = projectDescription[17].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/serioli.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/serioli2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/serioli1.png" alt="" /></li>
+
+              <li class="project-slider-image"><img src="/img/serioli3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/serioli4.png" alt="" /></li>
+
+            </ul>
+          </section>
+        `
         break
       case 'project-19':
         modalTitle.innerHTML = projectTitle[18].innerHTML
         modalDescription.innerHTML = projectDescription[18].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/volpi.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/volpi2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/volpi3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/volpi4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/volpi5.png" alt="" /></li>
+
+              
+              
+
+            </ul>
+          </section>
+        `
         break
       case 'project-20':
         modalTitle.innerHTML = projectTitle[19].innerHTML
