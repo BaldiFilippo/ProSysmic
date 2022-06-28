@@ -471,10 +471,6 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/volpi3.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/volpi4.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/volpi5.png" alt="" /></li>
-
-              
-              
-
             </ul>
           </section>
         `
@@ -482,14 +478,72 @@ appearModalBtn.forEach((btn) => {
       case 'project-20':
         modalTitle.innerHTML = projectTitle[19].innerHTML
         modalDescription.innerHTML = projectDescription[19].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+
+              <li class="project-slider-image"><img src="/img/zatti1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/zatti2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/zatti3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/zatti4.png" alt="" /></li>  
+
+
+
+            </ul>
+          </section>
+        `
         break
       case 'project-21':
         modalTitle.innerHTML = projectTitle[20].innerHTML
         modalDescription.innerHTML = projectDescription[20].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/belleri1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/belleri2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/belleri3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/belleri4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/belleri5.png" alt="" /></li>
+            </ul>
+          </section>
+        `
         break
       case 'project-22':
         modalTitle.innerHTML = projectTitle[21].innerHTML
         modalDescription.innerHTML = projectDescription[21].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/steel1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/steel2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/steel3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/steel4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/steel5.png" alt="" /></li>
+              
+            </ul>
+          </section>
+        `
         break
     }
   })
