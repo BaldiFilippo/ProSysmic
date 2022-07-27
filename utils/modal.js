@@ -35,11 +35,11 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/eni3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/eni4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/eni5.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/eni6.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/eni2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eni3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eni4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eni5.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eni6.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eni2.jpg" alt="" /></li>
 
 
             </ul>
@@ -61,13 +61,13 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/smith1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/smith1.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/smith2.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/smith3.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/smith4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/smith5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/smith5.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/smith6.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/smith7.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/smith7.jpg" alt="" /></li>
             </ul>
           </section>
         `
@@ -85,12 +85,12 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/donati1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/donati2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/donati3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/doanti4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/donati5.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/donati6.png" alt="" /></li> 
+              <li class="project-slider-image"><img src="/img/donati1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/donati2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/donati3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/doanti4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/donati5.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/donati6.jpg" alt="" /></li> 
 
             </ul>
           </section>
@@ -110,10 +110,10 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/foma1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/foma2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/foma3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/foma4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma4.jpg" alt="" /></li>
             </ul>
           </section>
         `
@@ -132,12 +132,12 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/eusider1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/eusider2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/eusider4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/eusider5.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/eusider3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/eusider6.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider5.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/eusider6.jpg" alt="" /></li>
             </ul>
           </section>
         `
@@ -155,10 +155,11 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/a2a.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/s2a1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/a2a3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/a2a4.png" alt="" /></li>
+
+              <li class="project-slider-image"><img src="/img/a2a.jpg" alt="" /></li>
+
+              <li class="project-slider-image"><img src="/img/a2a3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/a2a4.jpg" alt="" /></li>
             </ul>
           </section>
         `
@@ -176,13 +177,13 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/aruba1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/aruba2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/aruba3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/aruba4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/aruba5.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/aruba6.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/aruba7.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba5.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba6.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/aruba7.jpg" alt="" /></li>
 
            
             </ul>
@@ -202,12 +203,12 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/warcom.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/warcom1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/warcom2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/warcom3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/warcom4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/warcom5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/warcom5.jpg" alt="" /></li>
 
             </ul>
           </section>
@@ -226,11 +227,11 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/1.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fidora.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fidora1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fidora2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fidora3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/1.jpeg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora3.jpg" alt="" /></li>
 
 
 
@@ -251,12 +252,12 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/fasb.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fasb2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fasb3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fasb5.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fasb4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fasb6.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb5.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb6.jpg" alt="" /></li>
             </ul>
           </section>
         `
@@ -274,12 +275,12 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/a2a2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/nuvolera1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/nuvolera2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/nuvolera3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/nuvolera4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/a2a5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/a2a2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/nuvolera1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/nuvolera2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/nuvolera3.jpg" alt="" /></li>
+
+              <li class="project-slider-image"><img src="/img/a2a5.jpg" alt="" /></li>
 
 
               
@@ -302,13 +303,13 @@ appearModalBtn.forEach((btn) => {
 
             <ul class="project-slider-ul">
               <li class="project-slider-image"><img src="/img/4.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/logiman1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/logiman2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/logiman3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/logiman4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/logiman5.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/logiman6.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/logiman7.png" alt="" /></li>
+
+              <li class="project-slider-image"><img src="/img/logiman2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman5.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman6.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/logiman7.jpg" alt="" /></li>
 
 
               
@@ -329,10 +330,10 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/vezzola.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/vezzola.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/vezzola2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/vezzola3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/vezzola4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/vezzola3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/vezzola4.jpg" alt="" /></li>
               
             </ul>
           </section>
@@ -352,10 +353,10 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/agrisolf1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/agrisolf2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/agrisolf1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/agrisolf2.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/agrisolf3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/agrisolf4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/agrisolf4.jpg" alt="" /></li>
               
             </ul>
           </section>
@@ -374,10 +375,10 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/benaco1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/benaco2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/benaco1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/benaco2.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/benaco3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/benaco4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/benaco4.jpg" alt="" /></li>
 
               
             </ul>
@@ -397,10 +398,10 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/bs1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bs2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bs3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bs4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bs1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bs2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bs3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bs4.jpg" alt="" /></li>
           
               
               
@@ -421,10 +422,10 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/riboli1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/riboli1.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/riboli2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/riboli3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/riboli4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/riboli3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/riboli4.jpg" alt="" /></li>
             </ul>
           </section>
         `
@@ -442,12 +443,12 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/serioli.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/serioli.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/serioli2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/serioli1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/serioli1.jpg" alt="" /></li>
 
-              <li class="project-slider-image"><img src="/img/serioli3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/serioli4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/serioli3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/serioli4.jpg" alt="" /></li>
 
             </ul>
           </section>
@@ -466,10 +467,10 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/volpi.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/volpi.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/volpi2.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/volpi3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/volpi4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/volpi4.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/volpi5.png" alt="" /></li>
             </ul>
           </section>
@@ -489,10 +490,10 @@ appearModalBtn.forEach((btn) => {
 
             <ul class="project-slider-ul">
 
-              <li class="project-slider-image"><img src="/img/zatti1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/zatti2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/zatti3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/zatti4.png" alt="" /></li>  
+              <li class="project-slider-image"><img src="/img/zatti1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/zatti2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/zatti3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/zatti4.jpg" alt="" /></li>  
 
 
 
@@ -513,11 +514,11 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/belleri1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/belleri2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/belleri3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/belleri4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/belleri5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/belleri1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/belleri2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/belleri3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/belleri4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/belleri5.jpg" alt="" /></li>
             </ul>
           </section>
         `
@@ -535,11 +536,11 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/steel1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/steel2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/steel3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/steel4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/steel5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/steel1.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/steel2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/steel3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/steel4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/steel5.jpg" alt="" /></li>
               
             </ul>
           </section>
