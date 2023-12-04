@@ -156,8 +156,8 @@ appearModalBtn.forEach((btn) => {
 
             <ul class="project-slider-ul">
 
+              <li class="project-slider-image"><img src="/img/a2a5.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/a2a.jpg" alt="" /></li>
-
               <li class="project-slider-image"><img src="/img/a2a3.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/a2a4.jpg" alt="" /></li>
             </ul>
@@ -232,9 +232,10 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/fidora1.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/fidora2.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/fidora3.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fidora10.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fidora11.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/fidora12.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora10.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora11.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora12.png" alt="" /></li>
+
 
 
 
@@ -282,11 +283,8 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/nuvolera1.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/nuvolera2.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/nuvolera3.jpg" alt="" /></li>
-
               <li class="project-slider-image"><img src="/img/a2a5.jpg" alt="" /></li>
 
-
-              
             </ul>
           </section>
         `
@@ -449,7 +447,6 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/serioli.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/serioli2.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/serioli1.jpg" alt="" /></li>
-
               <li class="project-slider-image"><img src="/img/serioli3.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/serioli4.jpg" alt="" /></li>
 
@@ -587,8 +584,8 @@ appearModalBtn.forEach((btn) => {
 
             <ul class="project-slider-ul">
               <li class="project-slider-image"><img src="/img/celav01.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/celav02.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/celav03.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/celav02.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/celav03.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/celav04.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/celav05.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/celav06.jpg" alt="" /></li>
@@ -661,7 +658,7 @@ appearModalBtn.forEach((btn) => {
             <ul class="project-slider-ul">
               <li class="project-slider-image"><img src="/img/italgraniti1.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/italgraniti2.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/italgraniti3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/italgraniti7.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/italgraniti4.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/italgraniti5.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/italgraniti6.jpg" alt="" /></li>
@@ -785,18 +782,17 @@ appearModalBtn.forEach((btn) => {
             <i class="fas fa-chevron-right"></i>
           </button>
 
-            <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/bim1.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim2.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim3.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim7.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim8.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim9.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim10.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim11.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim4.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim5.png" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim6.png" alt="" /></li>
+            <ul class="project-slider-ul bim-slider">
+              <li class="project-slider-image"><img src="/img/bim1.png" class="bim-img" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim2.png" class="bim-img" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim3.png" class="bim-img"  alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim7.png" class="bim-img"  alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim8.png" class="bim-img"  alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim9.png" class="bim-img"  alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim10.png" class="bim-img" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim4.png" class="bim-img"  alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim5.png" class="bim-img"  alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim6.png" class="bim-img"  alt="" /></li>
             </ul>
           </section>
         `
