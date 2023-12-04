@@ -556,6 +556,12 @@ footer {
   padding: 1rem 0 6rem;
   transition: all 0.4s ease-in;
 }
+.bim-btn {
+  margin-top: 0;
+  font-size: 0;
+  padding: 0;
+  cursor: pointer;
+}
 
 .project-card:hover .project-description {
   opacity: 1;

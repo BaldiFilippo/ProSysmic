@@ -232,6 +232,9 @@ appearModalBtn.forEach((btn) => {
               <li class="project-slider-image"><img src="/img/fidora1.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/fidora2.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/fidora3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora10.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora11.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fidora12.jpg" alt="" /></li>
 
 
 
@@ -743,6 +746,64 @@ appearModalBtn.forEach((btn) => {
           </section>
         `
         break
+      case 'project-31':
+        modalTitle.innerHTML = projectTitle[30].innerHTML
+        modalDescription.innerHTML = projectDescription[30].innerHTML
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/foma10.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma11.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma12.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma13.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma14.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/foma15.jpg" alt="" /></li>
+            
+ 
+            </ul>
+          </section>
+        `
+        break
+
+      case 'project-bim':
+        console.log('switch')
+        modalTitle.innerHTML = 'BIM'
+        modalDescription.innerHTML = 'AeC Costruzioni, Laudi e Eurospin'
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/bim1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim7.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim8.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim9.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim10.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim11.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim6.png" alt="" /></li>
+            </ul>
+          </section>
+        `
+
+        projectSlider()
+
+        break
     }
   })
 })
@@ -763,7 +824,10 @@ closeModalBtn.forEach((btn) => {
 
 var projectSlider = function () {
   var slider = document.querySelector('.project-slider')
+  console.log(slider)
+
   var sliderWidth = slider.offsetWidth
+
   var slideList = slider.querySelector('.project-slider-ul')
   var count = 1
   var items = document.querySelectorAll('.project-slider-image').length

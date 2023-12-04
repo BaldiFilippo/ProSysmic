@@ -22,8 +22,23 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <div class="modal">
+      <i class="fa-solid fa-xmark modal-close-btn"></i>
+      <h2 class="modal-title"></h2>
+      <p class="modal-text"></p>
+      <div class="modal-content"></div>
+    </div>
+
+    <div class="darkElement"></div>
     <header class="header">
       <div class="container">
         <div class="logo">
@@ -38,6 +53,9 @@
             <li><a href="/Pages/servizi.html">SERVIZI</a></li>
             <li><a href="/Pages/progetti.html">PROGETTI</a></li>
             <li><a href="/Pages/contatti.html">CONTATTI</a></li>
+            <li class="project-button bim-btn">
+              <a data-id="project-bim">BIM</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -90,7 +108,8 @@
       </div>
     </footer>
 
-    <script src="../index.js"></script>
+    <script src="index.js"></script>
+    <script src="/utils/modal.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
