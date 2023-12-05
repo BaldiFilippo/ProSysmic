@@ -608,12 +608,19 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/feltri-066-min.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/feltri-021-min.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/feltri-056-min.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/feltri-005-min.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/feltri-010-min.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/feltri-015-min.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri2.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri3.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri4.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri5.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri6.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri7.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri8.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri9.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri10.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri11.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/feltri12.jpg" alt="" /></li>
+             
+              
             
              
             </ul>
@@ -706,11 +713,11 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/sre1.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/sre2.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/sre3.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/sre4.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/sre5.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/sre1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/sre2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/sre3.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/sre4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/sre5.png" alt="" /></li>
 
           
            
@@ -743,9 +750,9 @@ appearModalBtn.forEach((btn) => {
           </section>
         `
         break
-      case 'project-31':
-        modalTitle.innerHTML = projectTitle[30].innerHTML
-        modalDescription.innerHTML = projectDescription[30].innerHTML
+      case 'project-bim-1':
+        modalTitle.innerHTML = 'AEC CONTRUZIONI'
+        modalDescription.innerHTML = ''
         modalContent.innerHTML = `
           <section class="project-slider animation">
           <button class="project-slider-button-left">
@@ -756,23 +763,16 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/foma10.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/foma11.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/foma12.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/foma13.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/foma14.jpg" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/foma15.jpg" alt="" /></li>
-            
- 
+              <li class="project-slider-image"><img src="/img/bim1.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim2.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim3.png" alt="" /></li>
             </ul>
           </section>
         `
         break
-
-      case 'project-bim':
-        console.log('switch')
-        modalTitle.innerHTML = 'BIM'
-        modalDescription.innerHTML = 'AeC Costruzioni, Laudi e Eurospin'
+      case 'project-bim-2':
+        modalTitle.innerHTML = 'LAUDI SRL'
+        modalDescription.innerHTML = ''
         modalContent.innerHTML = `
           <section class="project-slider animation">
           <button class="project-slider-button-left">
@@ -782,23 +782,36 @@ appearModalBtn.forEach((btn) => {
             <i class="fas fa-chevron-right"></i>
           </button>
 
-            <ul class="project-slider-ul bim-slider">
-              <li class="project-slider-image"><img src="/img/bim1.png" class="bim-img" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim2.png" class="bim-img" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim3.png" class="bim-img"  alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim7.png" class="bim-img"  alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim8.png" class="bim-img"  alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim9.png" class="bim-img"  alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim10.png" class="bim-img" alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim4.png" class="bim-img"  alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim5.png" class="bim-img"  alt="" /></li>
-              <li class="project-slider-image"><img src="/img/bim6.png" class="bim-img"  alt="" /></li>
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/bim7.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim8.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim9.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim10.png" alt="" /></li>
+
             </ul>
           </section>
         `
+        break
+      case 'project-bim-3':
+        modalTitle.innerHTML = 'EUROSPIN'
+        modalDescription.innerHTML = ''
+        modalContent.innerHTML = `
+          <section class="project-slider animation">
+          <button class="project-slider-button-left">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="project-slider-button-right">
+            <i class="fas fa-chevron-right"></i>
+          </button>
 
-        projectSlider()
+            <ul class="project-slider-ul">
+              <li class="project-slider-image"><img src="/img/bim4.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim5.png" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/bim6.png" alt="" /></li>
 
+            </ul>
+          </section>
+        `
         break
     }
   })
