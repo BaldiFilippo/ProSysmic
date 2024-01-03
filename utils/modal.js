@@ -256,7 +256,7 @@ appearModalBtn.forEach((btn) => {
           </button>
 
             <ul class="project-slider-ul">
-              <li class="project-slider-image"><img src="/img/fasb.jpg" alt="" /></li>
+              <li class="project-slider-image"><img src="/img/fasb.png" alt="" /></li>
               <li class="project-slider-image"><img src="/img/fasb2.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/fasb3.jpg" alt="" /></li>
               <li class="project-slider-image"><img src="/img/fasb5.jpg" alt="" /></li>
